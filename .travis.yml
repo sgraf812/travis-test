@@ -1,3 +1,8 @@
 sudo: false
+addons:
+  apt:
+    packages:
+    - net-tools
 language: c
-script: []
+script:
+  - ifconfig 
